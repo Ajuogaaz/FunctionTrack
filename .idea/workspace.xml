@@ -60,7 +60,7 @@
       <workItem from="1598573801361" duration="11920000" />
       <workItem from="1598653467817" duration="5857000" />
       <workItem from="1598882405593" duration="3500000" />
-      <workItem from="1598886179424" duration="3305000" />
+      <workItem from="1598886179424" duration="7248000" />
     </task>
     <task id="LOCAL-00001" summary="Added my own module">
       <created>1598586063342</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598888218965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implemented delete items">
+      <created>1598892934160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598892934160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +92,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added my own module" />
     <MESSAGE value="Added database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database" />
+    <MESSAGE value="implemented delete items" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented delete items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598882612502">
@@ -97,10 +105,10 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598587605184" />
-    <state x="482" y="130" key="CommitChangelistDialog2" timestamp="1598888218642">
+    <state x="482" y="130" key="CommitChangelistDialog2" timestamp="1598892934030">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="482" y="130" key="CommitChangelistDialog2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598888218642" />
+    <state x="482" y="130" key="CommitChangelistDialog2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598892934030" />
     <state x="496" y="276" key="Vcs.Push.Dialog.v2" timestamp="1598888226675">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
