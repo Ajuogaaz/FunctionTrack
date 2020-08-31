@@ -4,9 +4,6 @@
     <list default="true" id="1d136f13-dac1-4f8f-b59a-4e92a65b3192" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       <workItem from="1598573801361" duration="11920000" />
       <workItem from="1598653467817" duration="5857000" />
       <workItem from="1598882405593" duration="3500000" />
-      <workItem from="1598886179424" duration="1187000" />
+      <workItem from="1598886179424" duration="3305000" />
     </task>
     <task id="LOCAL-00001" summary="Added my own module">
       <created>1598586063342</created>
@@ -72,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598586063342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added database">
+      <created>1598888218965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598888218965</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +84,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added my own module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added my own module" />
+    <MESSAGE value="Added database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598882612502">
@@ -92,13 +97,13 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598587605184" />
-    <state x="482" y="130" key="CommitChangelistDialog2" timestamp="1598586063207">
+    <state x="482" y="130" key="CommitChangelistDialog2" timestamp="1598888218642">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="482" y="130" key="CommitChangelistDialog2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598586063207" />
-    <state x="496" y="276" key="Vcs.Push.Dialog.v2" timestamp="1598586065451">
+    <state x="482" y="130" key="CommitChangelistDialog2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598888218642" />
+    <state x="496" y="276" key="Vcs.Push.Dialog.v2" timestamp="1598888226675">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="496" y="276" key="Vcs.Push.Dialog.v2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598586065451" />
+    <state x="496" y="276" key="Vcs.Push.Dialog.v2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598888226675" />
   </component>
 </project>

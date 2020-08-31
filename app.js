@@ -66,9 +66,24 @@ app.post("/", (req, res) => {
 
 });
 
-app.get("/work", (req, res) =>{
-    res.render("list", {listTittle: "Work List", items : workItems});
+app.post("/delete", (req, res) => {
+    const deleteItem =  req.body.checkbox;
+    Item.findByIdAndDelete(deleteItem, (err) =>{
+        if(err){
+            console.log(err);
+        }else{
+            console.log("success");
+            res.redirect("/")
+        }
+
+    });
+
 });
+
+app.get("/:topic", (req, res) => {
+    res.render("list", {listTittle: req.params.paramName, items: workItems});
+});
+
 app.post("/work", (req, res) => {
     workItems.push(req.body.listItems);
     res.redirect("/work");
