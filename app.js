@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
-const axios = require("axios");
+const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const port = 3000;
 const dateModule = require(__dirname + "/date.js")
 
-let items = ["Buy Food", "Cook Food", "Eat Food" ];
-let workItems = [];
+const items = ["Buy Food", "Cook Food", "Eat Food" ];
+const workItems = [];
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
@@ -14,18 +14,52 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
+mongoose.connect("mongodb://localhost:27017/todolistDB", { useNewUrlParser: true,  useUnifiedTopology: true });
+
+const itemSchema = mongoose.Schema({
+
+    name : String
+});
+
+const Item = mongoose.model("Item", itemSchema);
+
+const item1 = new Item({name : "Buy Food"});
+const item2 = new Item({ name : "Eat food"});
+const item3 = new Item({ name : "Sell Food"});
+
 app.get("/" , (req, res) =>{
 
-    res.render("list", {listTittle : dateModule.getDay(), items : items});
+    Item.find( (err, foundItems) => {
+        if(err){
+            console.log(err);
+        }else{
+            if(!foundItems.length){
+                Item.insertMany([item1, item2, item3], (err) => {
+                    if(err){
+                        console.log(err);
+                    }else{
+                        console.log("success adding to db");
+                    }
+                });
+                res.redirect("/");
+            }else {
+                res.render("list", {listTittle : "Today", items : foundItems});
+            }
+
+        }
+    });
+
 });
 
 app.post("/", (req, res) => {
 
-    if(req.body.list == "Work"){
+    if(req.body.list === "Work"){
         workItems.push(req.body.listItems);
         res.redirect("/work");
     }else{
-        items.push(req.body.listItems);
+        const item = new Item({name : req.body.listItems});
+        console.log(item);
+        item.save();
         res.redirect("/");
     }
 
