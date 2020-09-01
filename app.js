@@ -7,7 +7,7 @@ const dateModule = require(__dirname + "/date.js")
 
 const items = ["Buy Food", "Cook Food", "Eat Food" ];
 const workItems = [];
-const _ = require(lodash);
+const _ = require("lodash");
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", { useNewUrlParser: true,  useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://admin-linus:Test123@cluster0.auhfn.azure.mongodb.net/todolistDB", { useNewUrlParser: true,  useUnifiedTopology: true });
 
 const itemSchema = mongoose.Schema({
 
@@ -109,7 +109,7 @@ app.post("/delete", (req, res) => {
 
 app.get("/:topic", (req, response) => {
 
-    const route = req.params.topic;
+    const route = _.capitalize(req.params.topic);
     const topicItems = [];
 
     List.findOne({name : route}, (err, res) => {
@@ -123,7 +123,7 @@ app.get("/:topic", (req, response) => {
                     items : defaultItems
                 });
                 list.save();
-                response.redirect("/" + res.name);
+                response.redirect("/" + route);
             }
         }else{
             console.log(err);

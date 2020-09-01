@@ -4,7 +4,6 @@
     <list default="true" id="1d136f13-dac1-4f8f-b59a-4e92a65b3192" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1598573801361" duration="11920000" />
       <workItem from="1598653467817" duration="5857000" />
       <workItem from="1598882405593" duration="3500000" />
-      <workItem from="1598886179424" duration="7248000" />
+      <workItem from="1598886179424" duration="8118000" />
     </task>
     <task id="LOCAL-00001" summary="Added my own module">
       <created>1598586063342</created>
@@ -83,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598892934160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added the custom route">
+      <created>1598897208884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598897208884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +99,8 @@
     <MESSAGE value="Added my own module" />
     <MESSAGE value="Added database" />
     <MESSAGE value="implemented delete items" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented delete items" />
+    <MESSAGE value="Added the custom route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the custom route" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598882612502">
@@ -105,10 +112,10 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598587605184" />
-    <state x="482" y="130" key="CommitChangelistDialog2" timestamp="1598892934030">
+    <state x="482" y="130" key="CommitChangelistDialog2" timestamp="1598897208742">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="482" y="130" key="CommitChangelistDialog2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598892934030" />
+    <state x="482" y="130" key="CommitChangelistDialog2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598897208742" />
     <state x="496" y="276" key="Vcs.Push.Dialog.v2" timestamp="1598888226675">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
